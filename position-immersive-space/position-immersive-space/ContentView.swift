@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  position
+//  position-immersive-space
 //
-//  Created by Robin Kanatzar on 8/15/24.
+//  Created by Robin Kanatzar on 8/16/24.
 //
 
 import SwiftUI
@@ -19,16 +19,15 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+            VStack (spacing: 12) {
+                Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+                    .font(.title)
+            }
+            .frame(width: 360)
+            .padding(36)
+            .glassBackgroundEffect()
 
-            Text("Hello, world!")
-
-            Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
-                .toggleStyle(.button)
-                .padding(.top, 50)
         }
-        .padding()
         .onChange(of: showImmersiveSpace) { _, newValue in
             Task {
                 if newValue {
@@ -50,6 +49,6 @@ struct ContentView: View {
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview(windowStyle: .volumetric) {
     ContentView()
 }

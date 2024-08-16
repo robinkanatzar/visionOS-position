@@ -1,14 +1,14 @@
 //
-//  positionTests.swift
-//  positionTests
+//  position_immersive_spaceTests.swift
+//  position-immersive-spaceTests
 //
-//  Created by Robin Kanatzar on 8/15/24.
+//  Created by Robin Kanatzar on 8/16/24.
 //
 
 import XCTest
-@testable import position
+@testable import position_immersive_space
 
-class positionTests: XCTestCase {
+class position_immersive_spaceTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BC76A592C6DDE4F00F25D45 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 6BC76A582C6DDE4F00F25D45 /* RealityKitContent */; };
-		6BC76A5B2C6DDE4F00F25D45 /* positionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A5A2C6DDE4F00F25D45 /* positionApp.swift */; };
-		6BC76A5D2C6DDE4F00F25D45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A5C2C6DDE4F00F25D45 /* ContentView.swift */; };
-		6BC76A5F2C6DDE4F00F25D45 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A5E2C6DDE4F00F25D45 /* ImmersiveView.swift */; };
-		6BC76A612C6DDE4F00F25D45 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 6BC76A602C6DDE4F00F25D45 /* ImageBasedLighting.skybox */; };
-		6BC76A632C6DDE5100F25D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC76A622C6DDE5100F25D45 /* Assets.xcassets */; };
-		6BC76A662C6DDE5100F25D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC76A652C6DDE5100F25D45 /* Preview Assets.xcassets */; };
-		6BC76A712C6DDE5100F25D45 /* positionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A702C6DDE5100F25D45 /* positionTests.swift */; };
+		6BC76A892C6F22A000F25D45 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 6BC76A882C6F22A000F25D45 /* RealityKitContent */; };
+		6BC76A8B2C6F22A000F25D45 /* position_immersive_spaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A8A2C6F22A000F25D45 /* position_immersive_spaceApp.swift */; };
+		6BC76A8D2C6F22A000F25D45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A8C2C6F22A000F25D45 /* ContentView.swift */; };
+		6BC76A8F2C6F22A000F25D45 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A8E2C6F22A000F25D45 /* ImmersiveView.swift */; };
+		6BC76A912C6F22A100F25D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC76A902C6F22A100F25D45 /* Assets.xcassets */; };
+		6BC76A942C6F22A100F25D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC76A932C6F22A100F25D45 /* Preview Assets.xcassets */; };
+		6BC76A9F2C6F22A100F25D45 /* position_immersive_spaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76A9E2C6F22A100F25D45 /* position_immersive_spaceTests.swift */; };
+		6BC76AA92C6F738300F25D45 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC76AA82C6F738300F25D45 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6BC76A6D2C6DDE5100F25D45 /* PBXContainerItemProxy */ = {
+		6BC76A9B2C6F22A100F25D45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6BC76A4B2C6DDE4E00F25D45 /* Project object */;
+			containerPortal = 6BC76A7B2C6F22A000F25D45 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6BC76A522C6DDE4E00F25D45;
-			remoteInfo = position;
+			remoteGlobalIDString = 6BC76A822C6F22A000F25D45;
+			remoteInfo = "position-immersive-space";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6BC76A532C6DDE4E00F25D45 /* position.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = position.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BC76A572C6DDE4F00F25D45 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		6BC76A5A2C6DDE4F00F25D45 /* positionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positionApp.swift; sourceTree = "<group>"; };
-		6BC76A5C2C6DDE4F00F25D45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6BC76A5E2C6DDE4F00F25D45 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		6BC76A602C6DDE4F00F25D45 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
-		6BC76A622C6DDE5100F25D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6BC76A652C6DDE5100F25D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6BC76A672C6DDE5100F25D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BC76A6C2C6DDE5100F25D45 /* positionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = positionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BC76A702C6DDE5100F25D45 /* positionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positionTests.swift; sourceTree = "<group>"; };
+		6BC76A832C6F22A000F25D45 /* position-immersive-space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "position-immersive-space.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC76A872C6F22A000F25D45 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		6BC76A8A2C6F22A000F25D45 /* position_immersive_spaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = position_immersive_spaceApp.swift; sourceTree = "<group>"; };
+		6BC76A8C2C6F22A000F25D45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BC76A8E2C6F22A000F25D45 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		6BC76A902C6F22A100F25D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BC76A932C6F22A100F25D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BC76A952C6F22A100F25D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC76A9A2C6F22A100F25D45 /* position-immersive-spaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "position-immersive-spaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC76A9E2C6F22A100F25D45 /* position_immersive_spaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = position_immersive_spaceTests.swift; sourceTree = "<group>"; };
+		6BC76AA82C6F738300F25D45 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BC76A502C6DDE4E00F25D45 /* Frameworks */ = {
+		6BC76A802C6F22A000F25D45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC76A592C6DDE4F00F25D45 /* RealityKitContent in Frameworks */,
+				6BC76A892C6F22A000F25D45 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BC76A692C6DDE5100F25D45 /* Frameworks */ = {
+		6BC76A972C6F22A100F25D45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,124 +60,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BC76A4A2C6DDE4E00F25D45 = {
+		6BC76A7A2C6F22A000F25D45 = {
 			isa = PBXGroup;
 			children = (
-				6BC76A552C6DDE4E00F25D45 /* position */,
-				6BC76A562C6DDE4F00F25D45 /* Packages */,
-				6BC76A6F2C6DDE5100F25D45 /* positionTests */,
-				6BC76A542C6DDE4E00F25D45 /* Products */,
+				6BC76A852C6F22A000F25D45 /* position-immersive-space */,
+				6BC76A862C6F22A000F25D45 /* Packages */,
+				6BC76A9D2C6F22A100F25D45 /* position-immersive-spaceTests */,
+				6BC76A842C6F22A000F25D45 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6BC76A542C6DDE4E00F25D45 /* Products */ = {
+		6BC76A842C6F22A000F25D45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BC76A532C6DDE4E00F25D45 /* position.app */,
-				6BC76A6C2C6DDE5100F25D45 /* positionTests.xctest */,
+				6BC76A832C6F22A000F25D45 /* position-immersive-space.app */,
+				6BC76A9A2C6F22A100F25D45 /* position-immersive-spaceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BC76A552C6DDE4E00F25D45 /* position */ = {
+		6BC76A852C6F22A000F25D45 /* position-immersive-space */ = {
 			isa = PBXGroup;
 			children = (
-				6BC76A5A2C6DDE4F00F25D45 /* positionApp.swift */,
-				6BC76A5C2C6DDE4F00F25D45 /* ContentView.swift */,
-				6BC76A5E2C6DDE4F00F25D45 /* ImmersiveView.swift */,
-				6BC76A602C6DDE4F00F25D45 /* ImageBasedLighting.skybox */,
-				6BC76A622C6DDE5100F25D45 /* Assets.xcassets */,
-				6BC76A672C6DDE5100F25D45 /* Info.plist */,
-				6BC76A642C6DDE5100F25D45 /* Preview Content */,
+				6BC76A8A2C6F22A000F25D45 /* position_immersive_spaceApp.swift */,
+				6BC76A8C2C6F22A000F25D45 /* ContentView.swift */,
+				6BC76A8E2C6F22A000F25D45 /* ImmersiveView.swift */,
+				6BC76A902C6F22A100F25D45 /* Assets.xcassets */,
+				6BC76A952C6F22A100F25D45 /* Info.plist */,
+				6BC76A922C6F22A100F25D45 /* Preview Content */,
+				6BC76AA82C6F738300F25D45 /* Device.swift */,
 			);
-			path = position;
+			path = "position-immersive-space";
 			sourceTree = "<group>";
 		};
-		6BC76A562C6DDE4F00F25D45 /* Packages */ = {
+		6BC76A862C6F22A000F25D45 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				6BC76A572C6DDE4F00F25D45 /* RealityKitContent */,
+				6BC76A872C6F22A000F25D45 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		6BC76A642C6DDE5100F25D45 /* Preview Content */ = {
+		6BC76A922C6F22A100F25D45 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6BC76A652C6DDE5100F25D45 /* Preview Assets.xcassets */,
+				6BC76A932C6F22A100F25D45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6BC76A6F2C6DDE5100F25D45 /* positionTests */ = {
+		6BC76A9D2C6F22A100F25D45 /* position-immersive-spaceTests */ = {
 			isa = PBXGroup;
 			children = (
-				6BC76A702C6DDE5100F25D45 /* positionTests.swift */,
+				6BC76A9E2C6F22A100F25D45 /* position_immersive_spaceTests.swift */,
 			);
-			path = positionTests;
+			path = "position-immersive-spaceTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BC76A522C6DDE4E00F25D45 /* position */ = {
+		6BC76A822C6F22A000F25D45 /* position-immersive-space */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC76A742C6DDE5100F25D45 /* Build configuration list for PBXNativeTarget "position" */;
+			buildConfigurationList = 6BC76AA22C6F22A100F25D45 /* Build configuration list for PBXNativeTarget "position-immersive-space" */;
 			buildPhases = (
-				6BC76A4F2C6DDE4E00F25D45 /* Sources */,
-				6BC76A502C6DDE4E00F25D45 /* Frameworks */,
-				6BC76A512C6DDE4E00F25D45 /* Resources */,
+				6BC76A7F2C6F22A000F25D45 /* Sources */,
+				6BC76A802C6F22A000F25D45 /* Frameworks */,
+				6BC76A812C6F22A000F25D45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = position;
+			name = "position-immersive-space";
 			packageProductDependencies = (
-				6BC76A582C6DDE4F00F25D45 /* RealityKitContent */,
+				6BC76A882C6F22A000F25D45 /* RealityKitContent */,
 			);
-			productName = position;
-			productReference = 6BC76A532C6DDE4E00F25D45 /* position.app */;
+			productName = "position-immersive-space";
+			productReference = 6BC76A832C6F22A000F25D45 /* position-immersive-space.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6BC76A6B2C6DDE5100F25D45 /* positionTests */ = {
+		6BC76A992C6F22A100F25D45 /* position-immersive-spaceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BC76A772C6DDE5100F25D45 /* Build configuration list for PBXNativeTarget "positionTests" */;
+			buildConfigurationList = 6BC76AA52C6F22A100F25D45 /* Build configuration list for PBXNativeTarget "position-immersive-spaceTests" */;
 			buildPhases = (
-				6BC76A682C6DDE5100F25D45 /* Sources */,
-				6BC76A692C6DDE5100F25D45 /* Frameworks */,
-				6BC76A6A2C6DDE5100F25D45 /* Resources */,
+				6BC76A962C6F22A100F25D45 /* Sources */,
+				6BC76A972C6F22A100F25D45 /* Frameworks */,
+				6BC76A982C6F22A100F25D45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6BC76A6E2C6DDE5100F25D45 /* PBXTargetDependency */,
+				6BC76A9C2C6F22A100F25D45 /* PBXTargetDependency */,
 			);
-			name = positionTests;
-			productName = positionTests;
-			productReference = 6BC76A6C2C6DDE5100F25D45 /* positionTests.xctest */;
+			name = "position-immersive-spaceTests";
+			productName = "position-immersive-spaceTests";
+			productReference = 6BC76A9A2C6F22A100F25D45 /* position-immersive-spaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6BC76A4B2C6DDE4E00F25D45 /* Project object */ = {
+		6BC76A7B2C6F22A000F25D45 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					6BC76A522C6DDE4E00F25D45 = {
+					6BC76A822C6F22A000F25D45 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					6BC76A6B2C6DDE5100F25D45 = {
+					6BC76A992C6F22A100F25D45 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 6BC76A522C6DDE4E00F25D45;
+						TestTargetID = 6BC76A822C6F22A000F25D45;
 					};
 				};
 			};
-			buildConfigurationList = 6BC76A4E2C6DDE4E00F25D45 /* Build configuration list for PBXProject "position" */;
+			buildConfigurationList = 6BC76A7E2C6F22A000F25D45 /* Build configuration list for PBXProject "position-immersive-space" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -185,29 +185,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 6BC76A4A2C6DDE4E00F25D45;
-			productRefGroup = 6BC76A542C6DDE4E00F25D45 /* Products */;
+			mainGroup = 6BC76A7A2C6F22A000F25D45;
+			productRefGroup = 6BC76A842C6F22A000F25D45 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BC76A522C6DDE4E00F25D45 /* position */,
-				6BC76A6B2C6DDE5100F25D45 /* positionTests */,
+				6BC76A822C6F22A000F25D45 /* position-immersive-space */,
+				6BC76A992C6F22A100F25D45 /* position-immersive-spaceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6BC76A512C6DDE4E00F25D45 /* Resources */ = {
+		6BC76A812C6F22A000F25D45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC76A632C6DDE5100F25D45 /* Assets.xcassets in Resources */,
-				6BC76A662C6DDE5100F25D45 /* Preview Assets.xcassets in Resources */,
-				6BC76A612C6DDE4F00F25D45 /* ImageBasedLighting.skybox in Resources */,
+				6BC76A942C6F22A100F25D45 /* Preview Assets.xcassets in Resources */,
+				6BC76A912C6F22A100F25D45 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BC76A6A2C6DDE5100F25D45 /* Resources */ = {
+		6BC76A982C6F22A100F25D45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,36 +216,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BC76A4F2C6DDE4E00F25D45 /* Sources */ = {
+		6BC76A7F2C6F22A000F25D45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC76A5D2C6DDE4F00F25D45 /* ContentView.swift in Sources */,
-				6BC76A5B2C6DDE4F00F25D45 /* positionApp.swift in Sources */,
-				6BC76A5F2C6DDE4F00F25D45 /* ImmersiveView.swift in Sources */,
+				6BC76A8D2C6F22A000F25D45 /* ContentView.swift in Sources */,
+				6BC76A8B2C6F22A000F25D45 /* position_immersive_spaceApp.swift in Sources */,
+				6BC76A8F2C6F22A000F25D45 /* ImmersiveView.swift in Sources */,
+				6BC76AA92C6F738300F25D45 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BC76A682C6DDE5100F25D45 /* Sources */ = {
+		6BC76A962C6F22A100F25D45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC76A712C6DDE5100F25D45 /* positionTests.swift in Sources */,
+				6BC76A9F2C6F22A100F25D45 /* position_immersive_spaceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6BC76A6E2C6DDE5100F25D45 /* PBXTargetDependency */ = {
+		6BC76A9C2C6F22A100F25D45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6BC76A522C6DDE4E00F25D45 /* position */;
-			targetProxy = 6BC76A6D2C6DDE5100F25D45 /* PBXContainerItemProxy */;
+			target = 6BC76A822C6F22A000F25D45 /* position-immersive-space */;
+			targetProxy = 6BC76A9B2C6F22A100F25D45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6BC76A722C6DDE5100F25D45 /* Debug */ = {
+		6BC76AA02C6F22A100F25D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		6BC76A732C6DDE5100F25D45 /* Release */ = {
+		6BC76AA12C6F22A100F25D45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,15 +365,15 @@
 			};
 			name = Release;
 		};
-		6BC76A752C6DDE5100F25D45 /* Debug */ = {
+		6BC76AA32C6F22A100F25D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"position/Preview Content\"";
-				DEVELOPMENT_TEAM = 7LM775F9WE;
+				DEVELOPMENT_ASSET_PATHS = "\"position-immersive-space/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CCS8BFLQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -382,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinkanatzar.position;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinkanatzar.position-immersive-space";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -391,15 +391,15 @@
 			};
 			name = Debug;
 		};
-		6BC76A762C6DDE5100F25D45 /* Release */ = {
+		6BC76AA42C6F22A100F25D45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"position/Preview Content\"";
-				DEVELOPMENT_TEAM = 7LM775F9WE;
+				DEVELOPMENT_ASSET_PATHS = "\"position-immersive-space/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CCS8BFLQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinkanatzar.position;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinkanatzar.position-immersive-space";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -417,7 +417,7 @@
 			};
 			name = Release;
 		};
-		6BC76A782C6DDE5100F25D45 /* Debug */ = {
+		6BC76AA62C6F22A100F25D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -427,18 +427,18 @@
 				DEVELOPMENT_TEAM = 7LM775F9WE;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinkanatzar.positionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinkanatzar.position-immersive-spaceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/position.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/position";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/position-immersive-space.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/position-immersive-space";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
-		6BC76A792C6DDE5100F25D45 /* Release */ = {
+		6BC76AA72C6F22A100F25D45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -448,13 +448,13 @@
 				DEVELOPMENT_TEAM = 7LM775F9WE;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinkanatzar.positionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robinkanatzar.position-immersive-spaceTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/position.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/position";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/position-immersive-space.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/position-immersive-space";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
@@ -462,29 +462,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BC76A4E2C6DDE4E00F25D45 /* Build configuration list for PBXProject "position" */ = {
+		6BC76A7E2C6F22A000F25D45 /* Build configuration list for PBXProject "position-immersive-space" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BC76A722C6DDE5100F25D45 /* Debug */,
-				6BC76A732C6DDE5100F25D45 /* Release */,
+				6BC76AA02C6F22A100F25D45 /* Debug */,
+				6BC76AA12C6F22A100F25D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BC76A742C6DDE5100F25D45 /* Build configuration list for PBXNativeTarget "position" */ = {
+		6BC76AA22C6F22A100F25D45 /* Build configuration list for PBXNativeTarget "position-immersive-space" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BC76A752C6DDE5100F25D45 /* Debug */,
-				6BC76A762C6DDE5100F25D45 /* Release */,
+				6BC76AA32C6F22A100F25D45 /* Debug */,
+				6BC76AA42C6F22A100F25D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BC76A772C6DDE5100F25D45 /* Build configuration list for PBXNativeTarget "positionTests" */ = {
+		6BC76AA52C6F22A100F25D45 /* Build configuration list for PBXNativeTarget "position-immersive-spaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BC76A782C6DDE5100F25D45 /* Debug */,
-				6BC76A792C6DDE5100F25D45 /* Release */,
+				6BC76AA62C6F22A100F25D45 /* Debug */,
+				6BC76AA72C6F22A100F25D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -492,11 +492,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6BC76A582C6DDE4F00F25D45 /* RealityKitContent */ = {
+		6BC76A882C6F22A000F25D45 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6BC76A4B2C6DDE4E00F25D45 /* Project object */;
+	rootObject = 6BC76A7B2C6F22A000F25D45 /* Project object */;
 }
